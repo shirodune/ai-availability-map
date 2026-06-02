@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T03:39:30.721Z",
+  "generatedAt": "2026-06-02T05:21:27.611Z",
   "updatedLabel": "2026-06-02 · auto-fetched",
   "products": [
     "chatgpt",
@@ -38,12 +38,12 @@
         "url": "https://developers.openai.com/api/docs/supported-countries"
       },
       {
-        "label": "Anthropic — Claude supported countries",
+        "label": "Anthropic — Claude.ai supported countries",
         "url": "https://www.anthropic.com/supported-countries"
       },
       {
-        "label": "Anthropic — Claude API supported regions",
-        "url": "https://platform.claude.com/docs/en/api/supported-regions"
+        "label": "Anthropic — Claude API supported countries",
+        "url": "https://www.anthropic.com/supported-countries"
       },
       {
         "label": "Google — Gemini apps available countries",
@@ -52,6 +52,14 @@
       {
         "label": "Google — Gemini API available regions",
         "url": "https://ai.google.dev/gemini-api/docs/available-regions"
+      },
+      {
+        "label": "Google — Gemini AI Plus availability",
+        "url": "https://support.google.com/gemini/answer/16275805#zippy=%2Cwhere-google-ai-plus-is-available"
+      },
+      {
+        "label": "Google — Gemini AI Pro/Ultra availability",
+        "url": "https://support.google.com/gemini/answer/16275805#zippy=%2Cwhere-google-ai-pro-google-ai-ultra-are-available"
       }
     ]
   },
@@ -60,13 +68,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "fetchedAt": "2026-06-02T05:21:27.611Z",
         "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "fetchedAt": "2026-06-02T05:21:27.611Z",
         "url": "https://developers.openai.com/api/docs/supported-countries"
       }
     },
@@ -74,27 +82,27 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "fetchedAt": "2026-06-02T05:21:27.611Z",
         "url": "https://www.anthropic.com/supported-countries"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-02T03:39:30.721Z",
-        "url": "https://platform.claude.com/docs/en/api/supported-regions"
+        "fetchedAt": "2026-06-02T05:21:27.611Z",
+        "url": "https://www.anthropic.com/supported-countries"
       }
     },
     "gemini": {
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "fetchedAt": "2026-06-02T05:21:27.611Z",
         "url": "https://support.google.com/gemini/answer/13575153"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "fetchedAt": "2026-06-02T05:21:27.611Z",
         "url": "https://ai.google.dev/gemini-api/docs/available-regions.md.txt"
       }
     }
@@ -256,13 +264,10 @@
         "104",
         "112",
         "136",
-        "140",
         "156",
         "180",
         "184",
         "192",
-        "231",
-        "232",
         "234",
         "238",
         "239",
@@ -276,15 +281,12 @@
         "344",
         "364",
         "408",
-        "434",
         "446",
-        "466",
         "500",
         "531",
         "533",
         "534",
         "540",
-        "558",
         "570",
         "574",
         "580",
@@ -297,9 +299,6 @@
         "660",
         "663",
         "666",
-        "706",
-        "728",
-        "729",
         "732",
         "760",
         "796",

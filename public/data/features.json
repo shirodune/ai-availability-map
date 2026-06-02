@@ -137,8 +137,8 @@
       ],
       "note": "Paid Google AI Plus (cheaper tier) — notably excludes the US, UK, Canada, Japan, Australia, Singapore.",
       "source": {
-        "label": "Google — AI plan availability",
-        "url": "https://support.google.com/gemini/answer/16275805#zippy=%2Cwhere-google-ai-plus-is-available%2Cwhere-google-ai-pro-google-ai-ultra-are-available"
+        "label": "Google — Gemini AI Plus availability",
+        "url": "https://support.google.com/gemini/answer/16275805#zippy=%2Cwhere-google-ai-plus-is-available"
       }
     },
     {
@@ -306,8 +306,8 @@
       ],
       "note": "Paid Google AI Pro & Ultra plans.",
       "source": {
-        "label": "Google — AI plan availability",
-        "url": "https://support.google.com/gemini/answer/16275805#zippy=%2Cwhere-google-ai-plus-is-available%2Cwhere-google-ai-pro-google-ai-ultra-are-available"
+        "label": "Google — Gemini AI Pro/Ultra availability",
+        "url": "https://support.google.com/gemini/answer/16275805#zippy=%2Cwhere-google-ai-pro-google-ai-ultra-are-available"
       }
     },
     {

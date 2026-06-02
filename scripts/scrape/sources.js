@@ -10,10 +10,12 @@ export const SOURCES = [
     url: "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries" },
   { product: "chatgpt", layer: "api", expectMin: 120,
     url: "https://developers.openai.com/api/docs/supported-countries" },
+  // anthropic.com/supported-countries lists BOTH on one page, in two sections
+  // ("…commercial API access:" then "…Claude.ai access:"); we slice each.
   { product: "claude", layer: "web", expectMin: 100,
-    url: "https://www.anthropic.com/supported-countries" },
+    url: "https://www.anthropic.com/supported-countries", from: "Claude.ai access" },
   { product: "claude", layer: "api", expectMin: 100,
-    url: "https://platform.claude.com/docs/en/api/supported-regions" },
+    url: "https://www.anthropic.com/supported-countries", from: "commercial API access", to: "Claude.ai access" },
   { product: "gemini", layer: "web", expectMin: 120,
     url: "https://support.google.com/gemini/answer/13575153" },
   // The HTML page is JS-gated; the raw .md.txt serves a clean list.
@@ -24,7 +26,7 @@ export const SOURCES = [
 // Gemini paid tiers live on ONE page as two collapsible sections; parsed into
 // feature-spotlight allow-lists (features.json), not the availability layers.
 export const PAID = {
-  url: "https://support.google.com/gemini/answer/16275805?hl=en",
+  url: "https://support.google.com/gemini/answer/16275805",
   sections: [
     { featureId: "gemini-ai-plus", name: "AI Plus", start: "Where Google AI Plus is available", end: "Where Google AI Pro", expectMin: 80 },
     { featureId: "gemini-ai-pro-ultra", name: "AI Pro/Ultra", start: "Where Google AI Pro", end: "Need more help", expectMin: 100 },
@@ -103,9 +105,19 @@ function cleanForMatch(text) {
     .replace(/\([^)]*\)/g, " ");
 }
 
+// Slice page text to one section between two case-insensitive markers.
+function sliceSection(text, from, to) {
+  const low = text.toLowerCase();
+  const s = from ? low.indexOf(from.toLowerCase()) : 0;
+  if (s < 0) return text;
+  const e = to ? low.indexOf(to.toLowerCase(), s + (from ? from.length : 0)) : text.length;
+  return text.slice(s, e > s ? e : text.length);
+}
+
 export async function fetchSupported(src, { timeoutMs = 20000 } = {}) {
   const body = await fetchText(src.url, timeoutMs);
-  const raw = src.type === "text" ? body : mainText(body);
+  let raw = src.type === "text" ? body : mainText(body);
+  if (src.from || src.to) raw = sliceSection(raw, src.from, src.to);
   return matchCountriesIn(cleanForMatch(raw));
 }
 
