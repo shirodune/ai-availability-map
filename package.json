@@ -1,0 +1,29 @@
+{
+  "name": "ai-availability-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interactive world map of ChatGPT, Claude, and Gemini availability by country (consumer apps + developer APIs).",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "scrape": "node scripts/scrape/index.js",
+    "scrape:dry": "node scripts/scrape/index.js --dry-run"
+  },
+  "dependencies": {
+    "@visx/geo": "^3.12.0",
+    "d3-geo": "^3.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "cheerio": "^1.0.0",
+    "i18n-iso-countries": "^7.13.0",
+    "vite": "^5.4.11"
+  }
+}
