@@ -93,7 +93,7 @@ export function mainText(html) {
 //     only)") — those aren't generally/consumer available.
 //  2. Strip remaining "(China)"-style sovereign annotations so "Hong Kong (China)"
 //     matches Hong Kong, not China.
-function cleanForMatch(text) {
+export function cleanForMatch(text) {
   return text
     // Disambiguate the two Congos BEFORE the generic paren-strip — otherwise both
     // "Congo (DRC)" and "Congo (Brazzaville)" collapse to a bare, ambiguous "Congo".
@@ -106,11 +106,15 @@ function cleanForMatch(text) {
 }
 
 // Slice page text to one section between two case-insensitive markers.
-function sliceSection(text, from, to) {
+export function sliceSection(text, from, to) {
   const low = text.toLowerCase();
   const s = from ? low.indexOf(from.toLowerCase()) : 0;
-  if (s < 0) return text;
-  const e = to ? low.indexOf(to.toLowerCase(), s + (from ? from.length : 0)) : text.length;
+  if (from && s < 0) throw new Error(`section marker not found: "${from}"`);
+  let e = text.length;
+  if (to) {
+    e = low.indexOf(to.toLowerCase(), s + (from ? from.length : 0));
+    if (e < 0) throw new Error(`section marker not found: "${to}"`);
+  }
   return text.slice(s, e > s ? e : text.length);
 }
 

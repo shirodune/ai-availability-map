@@ -5,7 +5,7 @@
 
 import { feature as topoFeature } from "topojson-client";
 
-const BASE = import.meta.env.BASE_URL || "/";
+const BASE = import.meta.env?.BASE_URL || "/";
 
 function fetchJson(path) {
   return fetch(`${BASE}${path}`).then((r) => {

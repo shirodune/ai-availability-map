@@ -24,6 +24,11 @@ const date = now.slice(0, 10);
 const MUST_EXCLUDE = ["156", "643", "408", "364", "192", "760", "112"]; // China, Russia, N.Korea, Iran, Cuba, Syria, Belarus
 const MAX_SUPPORTED = 260; // a touch above the ~249 ISO countries+territories
 
+// The changelog tracks COUNTRIES only — matching the UI, which never shows
+// territory-level churn (territories inherit their sovereign).
+const isoEntries = JSON.parse(readFileSync(join(DATA_DIR, "iso-reference.json"), "utf8")).entries;
+const isCountry = (id) => { const e = isoEntries[String(Number(id))]; return e && e.kind === "country"; };
+
 const prev = JSON.parse(readFileSync(AV_PATH, "utf8"));
 const products = prev.products;
 const layers = prev.layers;
@@ -81,6 +86,7 @@ for (const p of products) {
     const ns = next.sourceStatus[p][l];
     if (!ns.ok || ns.stale) continue;
     for (const id of universe.ids) {
+      if (!isCountry(id)) continue;
       const before = statusOf(prev, p, l, id);
       const after = statusOf(next, p, l, id);
       if (before !== after && before !== "unknown" && after !== "unknown") {

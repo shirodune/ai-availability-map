@@ -10,7 +10,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "scrape": "node scripts/scrape/index.js",
-    "scrape:dry": "node scripts/scrape/index.js --dry-run"
+    "scrape:dry": "node scripts/scrape/index.js --dry-run",
+    "test": "node --test"
   },
   "dependencies": {
     "@visx/geo": "^3.12.0",
