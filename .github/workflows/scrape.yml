@@ -1,12 +1,17 @@
 name: Scrape availability
 
 # Refreshes public/data from the providers' official supported-country pages and
-# commits any changes. The commit (and the diff) is the audit trail; deploy.yml
-# picks it up via workflow_run.
+# commits any changes. The commit (and its diff) is the audit trail; pushing to
+# main triggers a Vercel redeploy via the git integration.
 on:
   schedule:
     - cron: "0 6 * * *" # daily at 06:00 UTC
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch + parse only, write/commit nothing (validation)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -22,12 +27,18 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Scrape
-        run: npm run scrape
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            npm run scrape:dry
+          else
+            npm run scrape
+          fi
       - name: Commit refreshed data (only if changed)
+        if: ${{ inputs.dry_run != true }}
         run: |
           git config user.name "availability-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/availability.json public/data/changelog.json
+          git add public/data/availability.json public/data/changelog.json public/data/features.json
           if git diff --cached --quiet; then
             echo "No data changes."
           else
