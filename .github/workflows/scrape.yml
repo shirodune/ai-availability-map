@@ -1,0 +1,36 @@
+name: Scrape availability
+
+# Refreshes public/data from the providers' official supported-country pages and
+# commits any changes. The commit (and the diff) is the audit trail; deploy.yml
+# picks it up via workflow_run.
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Scrape
+        run: npm run scrape
+      - name: Commit refreshed data (only if changed)
+        run: |
+          git config user.name "availability-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/availability.json public/data/changelog.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: refresh availability ($(date -u +%Y-%m-%d))"
+            git push
+          fi

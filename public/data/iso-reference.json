@@ -1,0 +1,1550 @@
+{
+  "source": "Natural Earth 50m display names + sovereignty (country = SOVEREIGNT==ADMIN); ISO alpha-2 from i18n-iso-countries; territories carry a parent-sovereign id for availability inheritance",
+  "entries": {
+    "4": {
+      "name": "Afghanistan",
+      "alpha2": "AF",
+      "kind": "country",
+      "shape": true
+    },
+    "8": {
+      "name": "Albania",
+      "alpha2": "AL",
+      "kind": "country",
+      "shape": true
+    },
+    "12": {
+      "name": "Algeria",
+      "alpha2": "DZ",
+      "kind": "country",
+      "shape": true
+    },
+    "16": {
+      "name": "American Samoa",
+      "alpha2": "AS",
+      "kind": "region",
+      "shape": true,
+      "parent": "840"
+    },
+    "20": {
+      "name": "Andorra",
+      "alpha2": "AD",
+      "kind": "country",
+      "shape": true
+    },
+    "24": {
+      "name": "Angola",
+      "alpha2": "AO",
+      "kind": "country",
+      "shape": true
+    },
+    "28": {
+      "name": "Antigua and Barb.",
+      "alpha2": "AG",
+      "kind": "country",
+      "shape": true
+    },
+    "31": {
+      "name": "Azerbaijan",
+      "alpha2": "AZ",
+      "kind": "country",
+      "shape": true
+    },
+    "32": {
+      "name": "Argentina",
+      "alpha2": "AR",
+      "kind": "country",
+      "shape": true
+    },
+    "36": {
+      "name": "Australia",
+      "alpha2": "AU",
+      "kind": "country",
+      "shape": true
+    },
+    "40": {
+      "name": "Austria",
+      "alpha2": "AT",
+      "kind": "country",
+      "shape": true
+    },
+    "44": {
+      "name": "Bahamas",
+      "alpha2": "BS",
+      "kind": "country",
+      "shape": true
+    },
+    "48": {
+      "name": "Bahrain",
+      "alpha2": "BH",
+      "kind": "country",
+      "shape": true
+    },
+    "50": {
+      "name": "Bangladesh",
+      "alpha2": "BD",
+      "kind": "country",
+      "shape": true
+    },
+    "51": {
+      "name": "Armenia",
+      "alpha2": "AM",
+      "kind": "country",
+      "shape": true
+    },
+    "52": {
+      "name": "Barbados",
+      "alpha2": "BB",
+      "kind": "country",
+      "shape": true
+    },
+    "56": {
+      "name": "Belgium",
+      "alpha2": "BE",
+      "kind": "country",
+      "shape": true
+    },
+    "60": {
+      "name": "Bermuda",
+      "alpha2": "BM",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "64": {
+      "name": "Bhutan",
+      "alpha2": "BT",
+      "kind": "country",
+      "shape": true
+    },
+    "68": {
+      "name": "Bolivia",
+      "alpha2": "BO",
+      "kind": "country",
+      "shape": true
+    },
+    "70": {
+      "name": "Bosnia and Herz.",
+      "alpha2": "BA",
+      "kind": "country",
+      "shape": true
+    },
+    "72": {
+      "name": "Botswana",
+      "alpha2": "BW",
+      "kind": "country",
+      "shape": true
+    },
+    "74": {
+      "name": "Bouvet Island",
+      "alpha2": "BV",
+      "kind": "region",
+      "shape": false,
+      "parent": "578"
+    },
+    "76": {
+      "name": "Brazil",
+      "alpha2": "BR",
+      "kind": "country",
+      "shape": true
+    },
+    "84": {
+      "name": "Belize",
+      "alpha2": "BZ",
+      "kind": "country",
+      "shape": true
+    },
+    "86": {
+      "name": "Br. Indian Ocean Ter.",
+      "alpha2": "IO",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "90": {
+      "name": "Solomon Is.",
+      "alpha2": "SB",
+      "kind": "country",
+      "shape": true
+    },
+    "92": {
+      "name": "British Virgin Is.",
+      "alpha2": "VG",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "96": {
+      "name": "Brunei",
+      "alpha2": "BN",
+      "kind": "country",
+      "shape": true
+    },
+    "100": {
+      "name": "Bulgaria",
+      "alpha2": "BG",
+      "kind": "country",
+      "shape": true
+    },
+    "104": {
+      "name": "Myanmar",
+      "alpha2": "MM",
+      "kind": "country",
+      "shape": true
+    },
+    "108": {
+      "name": "Burundi",
+      "alpha2": "BI",
+      "kind": "country",
+      "shape": true
+    },
+    "112": {
+      "name": "Belarus",
+      "alpha2": "BY",
+      "kind": "country",
+      "shape": true
+    },
+    "116": {
+      "name": "Cambodia",
+      "alpha2": "KH",
+      "kind": "country",
+      "shape": true
+    },
+    "120": {
+      "name": "Cameroon",
+      "alpha2": "CM",
+      "kind": "country",
+      "shape": true
+    },
+    "124": {
+      "name": "Canada",
+      "alpha2": "CA",
+      "kind": "country",
+      "shape": true
+    },
+    "132": {
+      "name": "Cabo Verde",
+      "alpha2": "CV",
+      "kind": "country",
+      "shape": true
+    },
+    "136": {
+      "name": "Cayman Is.",
+      "alpha2": "KY",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "140": {
+      "name": "Central African Rep.",
+      "alpha2": "CF",
+      "kind": "country",
+      "shape": true
+    },
+    "144": {
+      "name": "Sri Lanka",
+      "alpha2": "LK",
+      "kind": "country",
+      "shape": true
+    },
+    "148": {
+      "name": "Chad",
+      "alpha2": "TD",
+      "kind": "country",
+      "shape": true
+    },
+    "152": {
+      "name": "Chile",
+      "alpha2": "CL",
+      "kind": "country",
+      "shape": true
+    },
+    "156": {
+      "name": "China",
+      "alpha2": "CN",
+      "kind": "country",
+      "shape": true
+    },
+    "158": {
+      "name": "Taiwan",
+      "alpha2": "TW",
+      "kind": "country",
+      "shape": true
+    },
+    "162": {
+      "name": "Christmas Island",
+      "alpha2": "CX",
+      "kind": "region",
+      "shape": false,
+      "parent": "36"
+    },
+    "166": {
+      "name": "Cocos (Keeling) Islands",
+      "alpha2": "CC",
+      "kind": "region",
+      "shape": false,
+      "parent": "36"
+    },
+    "170": {
+      "name": "Colombia",
+      "alpha2": "CO",
+      "kind": "country",
+      "shape": true
+    },
+    "174": {
+      "name": "Comoros",
+      "alpha2": "KM",
+      "kind": "country",
+      "shape": true
+    },
+    "175": {
+      "name": "Mayotte",
+      "alpha2": "YT",
+      "kind": "region",
+      "shape": false,
+      "parent": "250"
+    },
+    "178": {
+      "name": "Congo",
+      "alpha2": "CG",
+      "kind": "country",
+      "shape": true
+    },
+    "180": {
+      "name": "Dem. Rep. Congo",
+      "alpha2": "CD",
+      "kind": "country",
+      "shape": true
+    },
+    "184": {
+      "name": "Cook Is.",
+      "alpha2": "CK",
+      "kind": "region",
+      "shape": true,
+      "parent": "554"
+    },
+    "188": {
+      "name": "Costa Rica",
+      "alpha2": "CR",
+      "kind": "country",
+      "shape": true
+    },
+    "191": {
+      "name": "Croatia",
+      "alpha2": "HR",
+      "kind": "country",
+      "shape": true
+    },
+    "192": {
+      "name": "Cuba",
+      "alpha2": "CU",
+      "kind": "country",
+      "shape": true
+    },
+    "196": {
+      "name": "Cyprus",
+      "alpha2": "CY",
+      "kind": "country",
+      "shape": true
+    },
+    "203": {
+      "name": "Czechia",
+      "alpha2": "CZ",
+      "kind": "country",
+      "shape": true
+    },
+    "204": {
+      "name": "Benin",
+      "alpha2": "BJ",
+      "kind": "country",
+      "shape": true
+    },
+    "208": {
+      "name": "Denmark",
+      "alpha2": "DK",
+      "kind": "country",
+      "shape": true
+    },
+    "212": {
+      "name": "Dominica",
+      "alpha2": "DM",
+      "kind": "country",
+      "shape": true
+    },
+    "214": {
+      "name": "Dominican Rep.",
+      "alpha2": "DO",
+      "kind": "country",
+      "shape": true
+    },
+    "218": {
+      "name": "Ecuador",
+      "alpha2": "EC",
+      "kind": "country",
+      "shape": true
+    },
+    "222": {
+      "name": "El Salvador",
+      "alpha2": "SV",
+      "kind": "country",
+      "shape": true
+    },
+    "226": {
+      "name": "Eq. Guinea",
+      "alpha2": "GQ",
+      "kind": "country",
+      "shape": true
+    },
+    "231": {
+      "name": "Ethiopia",
+      "alpha2": "ET",
+      "kind": "country",
+      "shape": true
+    },
+    "232": {
+      "name": "Eritrea",
+      "alpha2": "ER",
+      "kind": "country",
+      "shape": true
+    },
+    "233": {
+      "name": "Estonia",
+      "alpha2": "EE",
+      "kind": "country",
+      "shape": true
+    },
+    "234": {
+      "name": "Faeroe Is.",
+      "alpha2": "FO",
+      "kind": "region",
+      "shape": true,
+      "parent": "208"
+    },
+    "238": {
+      "name": "Falkland Is.",
+      "alpha2": "FK",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "239": {
+      "name": "S. Geo. and the Is.",
+      "alpha2": "GS",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "242": {
+      "name": "Fiji",
+      "alpha2": "FJ",
+      "kind": "country",
+      "shape": true
+    },
+    "246": {
+      "name": "Finland",
+      "alpha2": "FI",
+      "kind": "country",
+      "shape": true
+    },
+    "248": {
+      "name": "Åland",
+      "alpha2": "AX",
+      "kind": "region",
+      "shape": true,
+      "parent": "246"
+    },
+    "250": {
+      "name": "France",
+      "alpha2": "FR",
+      "kind": "country",
+      "shape": true
+    },
+    "254": {
+      "name": "French Guiana",
+      "alpha2": "GF",
+      "kind": "region",
+      "shape": false,
+      "parent": "250"
+    },
+    "258": {
+      "name": "Fr. Polynesia",
+      "alpha2": "PF",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "260": {
+      "name": "Fr. S. Antarctic Lands",
+      "alpha2": "TF",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "262": {
+      "name": "Djibouti",
+      "alpha2": "DJ",
+      "kind": "country",
+      "shape": true
+    },
+    "266": {
+      "name": "Gabon",
+      "alpha2": "GA",
+      "kind": "country",
+      "shape": true
+    },
+    "268": {
+      "name": "Georgia",
+      "alpha2": "GE",
+      "kind": "country",
+      "shape": true
+    },
+    "270": {
+      "name": "Gambia",
+      "alpha2": "GM",
+      "kind": "country",
+      "shape": true
+    },
+    "275": {
+      "name": "Palestine",
+      "alpha2": "PS",
+      "kind": "region",
+      "shape": true
+    },
+    "276": {
+      "name": "Germany",
+      "alpha2": "DE",
+      "kind": "country",
+      "shape": true
+    },
+    "288": {
+      "name": "Ghana",
+      "alpha2": "GH",
+      "kind": "country",
+      "shape": true
+    },
+    "292": {
+      "name": "Gibraltar",
+      "alpha2": "GI",
+      "kind": "region",
+      "shape": false,
+      "parent": "826"
+    },
+    "296": {
+      "name": "Kiribati",
+      "alpha2": "KI",
+      "kind": "country",
+      "shape": true
+    },
+    "300": {
+      "name": "Greece",
+      "alpha2": "GR",
+      "kind": "country",
+      "shape": true
+    },
+    "304": {
+      "name": "Greenland",
+      "alpha2": "GL",
+      "kind": "region",
+      "shape": true,
+      "parent": "208"
+    },
+    "308": {
+      "name": "Grenada",
+      "alpha2": "GD",
+      "kind": "country",
+      "shape": true
+    },
+    "312": {
+      "name": "Guadeloupe",
+      "alpha2": "GP",
+      "kind": "region",
+      "shape": false,
+      "parent": "250"
+    },
+    "316": {
+      "name": "Guam",
+      "alpha2": "GU",
+      "kind": "region",
+      "shape": true,
+      "parent": "840"
+    },
+    "320": {
+      "name": "Guatemala",
+      "alpha2": "GT",
+      "kind": "country",
+      "shape": true
+    },
+    "324": {
+      "name": "Guinea",
+      "alpha2": "GN",
+      "kind": "country",
+      "shape": true
+    },
+    "328": {
+      "name": "Guyana",
+      "alpha2": "GY",
+      "kind": "country",
+      "shape": true
+    },
+    "332": {
+      "name": "Haiti",
+      "alpha2": "HT",
+      "kind": "country",
+      "shape": true
+    },
+    "334": {
+      "name": "Heard I. and McDonald Is.",
+      "alpha2": "HM",
+      "kind": "region",
+      "shape": true,
+      "parent": "36"
+    },
+    "336": {
+      "name": "Vatican",
+      "alpha2": "VA",
+      "kind": "country",
+      "shape": true
+    },
+    "340": {
+      "name": "Honduras",
+      "alpha2": "HN",
+      "kind": "country",
+      "shape": true
+    },
+    "344": {
+      "name": "Hong Kong",
+      "alpha2": "HK",
+      "kind": "region",
+      "shape": true,
+      "parent": "156"
+    },
+    "348": {
+      "name": "Hungary",
+      "alpha2": "HU",
+      "kind": "country",
+      "shape": true
+    },
+    "352": {
+      "name": "Iceland",
+      "alpha2": "IS",
+      "kind": "country",
+      "shape": true
+    },
+    "356": {
+      "name": "India",
+      "alpha2": "IN",
+      "kind": "country",
+      "shape": true
+    },
+    "360": {
+      "name": "Indonesia",
+      "alpha2": "ID",
+      "kind": "country",
+      "shape": true
+    },
+    "364": {
+      "name": "Iran",
+      "alpha2": "IR",
+      "kind": "country",
+      "shape": true
+    },
+    "368": {
+      "name": "Iraq",
+      "alpha2": "IQ",
+      "kind": "country",
+      "shape": true
+    },
+    "372": {
+      "name": "Ireland",
+      "alpha2": "IE",
+      "kind": "country",
+      "shape": true
+    },
+    "376": {
+      "name": "Israel",
+      "alpha2": "IL",
+      "kind": "country",
+      "shape": true
+    },
+    "380": {
+      "name": "Italy",
+      "alpha2": "IT",
+      "kind": "country",
+      "shape": true
+    },
+    "384": {
+      "name": "Côte d'Ivoire",
+      "alpha2": "CI",
+      "kind": "country",
+      "shape": true
+    },
+    "388": {
+      "name": "Jamaica",
+      "alpha2": "JM",
+      "kind": "country",
+      "shape": true
+    },
+    "392": {
+      "name": "Japan",
+      "alpha2": "JP",
+      "kind": "country",
+      "shape": true
+    },
+    "398": {
+      "name": "Kazakhstan",
+      "alpha2": "KZ",
+      "kind": "country",
+      "shape": true
+    },
+    "400": {
+      "name": "Jordan",
+      "alpha2": "JO",
+      "kind": "country",
+      "shape": true
+    },
+    "404": {
+      "name": "Kenya",
+      "alpha2": "KE",
+      "kind": "country",
+      "shape": true
+    },
+    "408": {
+      "name": "North Korea",
+      "alpha2": "KP",
+      "kind": "country",
+      "shape": true
+    },
+    "410": {
+      "name": "South Korea",
+      "alpha2": "KR",
+      "kind": "country",
+      "shape": true
+    },
+    "414": {
+      "name": "Kuwait",
+      "alpha2": "KW",
+      "kind": "country",
+      "shape": true
+    },
+    "417": {
+      "name": "Kyrgyzstan",
+      "alpha2": "KG",
+      "kind": "country",
+      "shape": true
+    },
+    "418": {
+      "name": "Laos",
+      "alpha2": "LA",
+      "kind": "country",
+      "shape": true
+    },
+    "422": {
+      "name": "Lebanon",
+      "alpha2": "LB",
+      "kind": "country",
+      "shape": true
+    },
+    "426": {
+      "name": "Lesotho",
+      "alpha2": "LS",
+      "kind": "country",
+      "shape": true
+    },
+    "428": {
+      "name": "Latvia",
+      "alpha2": "LV",
+      "kind": "country",
+      "shape": true
+    },
+    "430": {
+      "name": "Liberia",
+      "alpha2": "LR",
+      "kind": "country",
+      "shape": true
+    },
+    "434": {
+      "name": "Libya",
+      "alpha2": "LY",
+      "kind": "country",
+      "shape": true
+    },
+    "438": {
+      "name": "Liechtenstein",
+      "alpha2": "LI",
+      "kind": "country",
+      "shape": true
+    },
+    "440": {
+      "name": "Lithuania",
+      "alpha2": "LT",
+      "kind": "country",
+      "shape": true
+    },
+    "442": {
+      "name": "Luxembourg",
+      "alpha2": "LU",
+      "kind": "country",
+      "shape": true
+    },
+    "446": {
+      "name": "Macao",
+      "alpha2": "MO",
+      "kind": "region",
+      "shape": true,
+      "parent": "156"
+    },
+    "450": {
+      "name": "Madagascar",
+      "alpha2": "MG",
+      "kind": "country",
+      "shape": true
+    },
+    "454": {
+      "name": "Malawi",
+      "alpha2": "MW",
+      "kind": "country",
+      "shape": true
+    },
+    "458": {
+      "name": "Malaysia",
+      "alpha2": "MY",
+      "kind": "country",
+      "shape": true
+    },
+    "462": {
+      "name": "Maldives",
+      "alpha2": "MV",
+      "kind": "country",
+      "shape": true
+    },
+    "466": {
+      "name": "Mali",
+      "alpha2": "ML",
+      "kind": "country",
+      "shape": true
+    },
+    "470": {
+      "name": "Malta",
+      "alpha2": "MT",
+      "kind": "country",
+      "shape": true
+    },
+    "474": {
+      "name": "Martinique",
+      "alpha2": "MQ",
+      "kind": "region",
+      "shape": false,
+      "parent": "250"
+    },
+    "478": {
+      "name": "Mauritania",
+      "alpha2": "MR",
+      "kind": "country",
+      "shape": true
+    },
+    "480": {
+      "name": "Mauritius",
+      "alpha2": "MU",
+      "kind": "country",
+      "shape": true
+    },
+    "484": {
+      "name": "Mexico",
+      "alpha2": "MX",
+      "kind": "country",
+      "shape": true
+    },
+    "492": {
+      "name": "Monaco",
+      "alpha2": "MC",
+      "kind": "country",
+      "shape": true
+    },
+    "496": {
+      "name": "Mongolia",
+      "alpha2": "MN",
+      "kind": "country",
+      "shape": true
+    },
+    "498": {
+      "name": "Moldova",
+      "alpha2": "MD",
+      "kind": "country",
+      "shape": true
+    },
+    "499": {
+      "name": "Montenegro",
+      "alpha2": "ME",
+      "kind": "country",
+      "shape": true
+    },
+    "500": {
+      "name": "Montserrat",
+      "alpha2": "MS",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "504": {
+      "name": "Morocco",
+      "alpha2": "MA",
+      "kind": "country",
+      "shape": true
+    },
+    "508": {
+      "name": "Mozambique",
+      "alpha2": "MZ",
+      "kind": "country",
+      "shape": true
+    },
+    "512": {
+      "name": "Oman",
+      "alpha2": "OM",
+      "kind": "country",
+      "shape": true
+    },
+    "516": {
+      "name": "Namibia",
+      "alpha2": "NA",
+      "kind": "country",
+      "shape": true
+    },
+    "520": {
+      "name": "Nauru",
+      "alpha2": "NR",
+      "kind": "country",
+      "shape": true
+    },
+    "524": {
+      "name": "Nepal",
+      "alpha2": "NP",
+      "kind": "country",
+      "shape": true
+    },
+    "528": {
+      "name": "Netherlands",
+      "alpha2": "NL",
+      "kind": "country",
+      "shape": true
+    },
+    "531": {
+      "name": "Curaçao",
+      "alpha2": "CW",
+      "kind": "region",
+      "shape": true,
+      "parent": "528"
+    },
+    "533": {
+      "name": "Aruba",
+      "alpha2": "AW",
+      "kind": "region",
+      "shape": true,
+      "parent": "528"
+    },
+    "534": {
+      "name": "Sint Maarten",
+      "alpha2": "SX",
+      "kind": "region",
+      "shape": true,
+      "parent": "528"
+    },
+    "535": {
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "alpha2": "BQ",
+      "kind": "region",
+      "shape": false,
+      "parent": "528"
+    },
+    "540": {
+      "name": "New Caledonia",
+      "alpha2": "NC",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "548": {
+      "name": "Vanuatu",
+      "alpha2": "VU",
+      "kind": "country",
+      "shape": true
+    },
+    "554": {
+      "name": "New Zealand",
+      "alpha2": "NZ",
+      "kind": "country",
+      "shape": true
+    },
+    "558": {
+      "name": "Nicaragua",
+      "alpha2": "NI",
+      "kind": "country",
+      "shape": true
+    },
+    "562": {
+      "name": "Niger",
+      "alpha2": "NE",
+      "kind": "country",
+      "shape": true
+    },
+    "566": {
+      "name": "Nigeria",
+      "alpha2": "NG",
+      "kind": "country",
+      "shape": true
+    },
+    "570": {
+      "name": "Niue",
+      "alpha2": "NU",
+      "kind": "region",
+      "shape": true,
+      "parent": "554"
+    },
+    "574": {
+      "name": "Norfolk Island",
+      "alpha2": "NF",
+      "kind": "region",
+      "shape": true,
+      "parent": "36"
+    },
+    "578": {
+      "name": "Norway",
+      "alpha2": "NO",
+      "kind": "country",
+      "shape": true
+    },
+    "580": {
+      "name": "N. Mariana Is.",
+      "alpha2": "MP",
+      "kind": "region",
+      "shape": true,
+      "parent": "840"
+    },
+    "581": {
+      "name": "United States Minor Outlying Islands",
+      "alpha2": "UM",
+      "kind": "region",
+      "shape": false,
+      "parent": "840"
+    },
+    "583": {
+      "name": "Micronesia",
+      "alpha2": "FM",
+      "kind": "country",
+      "shape": true
+    },
+    "584": {
+      "name": "Marshall Is.",
+      "alpha2": "MH",
+      "kind": "country",
+      "shape": true
+    },
+    "585": {
+      "name": "Palau",
+      "alpha2": "PW",
+      "kind": "country",
+      "shape": true
+    },
+    "586": {
+      "name": "Pakistan",
+      "alpha2": "PK",
+      "kind": "country",
+      "shape": true
+    },
+    "591": {
+      "name": "Panama",
+      "alpha2": "PA",
+      "kind": "country",
+      "shape": true
+    },
+    "598": {
+      "name": "Papua New Guinea",
+      "alpha2": "PG",
+      "kind": "country",
+      "shape": true
+    },
+    "600": {
+      "name": "Paraguay",
+      "alpha2": "PY",
+      "kind": "country",
+      "shape": true
+    },
+    "604": {
+      "name": "Peru",
+      "alpha2": "PE",
+      "kind": "country",
+      "shape": true
+    },
+    "608": {
+      "name": "Philippines",
+      "alpha2": "PH",
+      "kind": "country",
+      "shape": true
+    },
+    "612": {
+      "name": "Pitcairn Is.",
+      "alpha2": "PN",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "616": {
+      "name": "Poland",
+      "alpha2": "PL",
+      "kind": "country",
+      "shape": true
+    },
+    "620": {
+      "name": "Portugal",
+      "alpha2": "PT",
+      "kind": "country",
+      "shape": true
+    },
+    "624": {
+      "name": "Guinea-Bissau",
+      "alpha2": "GW",
+      "kind": "country",
+      "shape": true
+    },
+    "626": {
+      "name": "Timor-Leste",
+      "alpha2": "TL",
+      "kind": "country",
+      "shape": true
+    },
+    "630": {
+      "name": "Puerto Rico",
+      "alpha2": "PR",
+      "kind": "region",
+      "shape": true,
+      "parent": "840"
+    },
+    "634": {
+      "name": "Qatar",
+      "alpha2": "QA",
+      "kind": "country",
+      "shape": true
+    },
+    "638": {
+      "name": "Reunion",
+      "alpha2": "RE",
+      "kind": "region",
+      "shape": false,
+      "parent": "250"
+    },
+    "642": {
+      "name": "Romania",
+      "alpha2": "RO",
+      "kind": "country",
+      "shape": true
+    },
+    "643": {
+      "name": "Russia",
+      "alpha2": "RU",
+      "kind": "country",
+      "shape": true
+    },
+    "646": {
+      "name": "Rwanda",
+      "alpha2": "RW",
+      "kind": "country",
+      "shape": true
+    },
+    "652": {
+      "name": "St-Barthélemy",
+      "alpha2": "BL",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "654": {
+      "name": "Saint Helena",
+      "alpha2": "SH",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "659": {
+      "name": "St. Kitts and Nevis",
+      "alpha2": "KN",
+      "kind": "country",
+      "shape": true
+    },
+    "660": {
+      "name": "Anguilla",
+      "alpha2": "AI",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "662": {
+      "name": "Saint Lucia",
+      "alpha2": "LC",
+      "kind": "country",
+      "shape": true
+    },
+    "663": {
+      "name": "St-Martin",
+      "alpha2": "MF",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "666": {
+      "name": "St. Pierre and Miquelon",
+      "alpha2": "PM",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "670": {
+      "name": "St. Vin. and Gren.",
+      "alpha2": "VC",
+      "kind": "country",
+      "shape": true
+    },
+    "674": {
+      "name": "San Marino",
+      "alpha2": "SM",
+      "kind": "country",
+      "shape": true
+    },
+    "678": {
+      "name": "São Tomé and Principe",
+      "alpha2": "ST",
+      "kind": "country",
+      "shape": true
+    },
+    "682": {
+      "name": "Saudi Arabia",
+      "alpha2": "SA",
+      "kind": "country",
+      "shape": true
+    },
+    "686": {
+      "name": "Senegal",
+      "alpha2": "SN",
+      "kind": "country",
+      "shape": true
+    },
+    "688": {
+      "name": "Serbia",
+      "alpha2": "RS",
+      "kind": "country",
+      "shape": true
+    },
+    "690": {
+      "name": "Seychelles",
+      "alpha2": "SC",
+      "kind": "country",
+      "shape": true
+    },
+    "694": {
+      "name": "Sierra Leone",
+      "alpha2": "SL",
+      "kind": "country",
+      "shape": true
+    },
+    "702": {
+      "name": "Singapore",
+      "alpha2": "SG",
+      "kind": "country",
+      "shape": true
+    },
+    "703": {
+      "name": "Slovakia",
+      "alpha2": "SK",
+      "kind": "country",
+      "shape": true
+    },
+    "704": {
+      "name": "Vietnam",
+      "alpha2": "VN",
+      "kind": "country",
+      "shape": true
+    },
+    "705": {
+      "name": "Slovenia",
+      "alpha2": "SI",
+      "kind": "country",
+      "shape": true
+    },
+    "706": {
+      "name": "Somalia",
+      "alpha2": "SO",
+      "kind": "country",
+      "shape": true
+    },
+    "710": {
+      "name": "South Africa",
+      "alpha2": "ZA",
+      "kind": "country",
+      "shape": true
+    },
+    "716": {
+      "name": "Zimbabwe",
+      "alpha2": "ZW",
+      "kind": "country",
+      "shape": true
+    },
+    "724": {
+      "name": "Spain",
+      "alpha2": "ES",
+      "kind": "country",
+      "shape": true
+    },
+    "728": {
+      "name": "S. Sudan",
+      "alpha2": "SS",
+      "kind": "country",
+      "shape": true
+    },
+    "729": {
+      "name": "Sudan",
+      "alpha2": "SD",
+      "kind": "country",
+      "shape": true
+    },
+    "732": {
+      "name": "W. Sahara",
+      "alpha2": "EH",
+      "kind": "country",
+      "shape": true
+    },
+    "740": {
+      "name": "Suriname",
+      "alpha2": "SR",
+      "kind": "country",
+      "shape": true
+    },
+    "744": {
+      "name": "Svalbard and Jan Mayen",
+      "alpha2": "SJ",
+      "kind": "region",
+      "shape": false,
+      "parent": "578"
+    },
+    "748": {
+      "name": "eSwatini",
+      "alpha2": "SZ",
+      "kind": "country",
+      "shape": true
+    },
+    "752": {
+      "name": "Sweden",
+      "alpha2": "SE",
+      "kind": "country",
+      "shape": true
+    },
+    "756": {
+      "name": "Switzerland",
+      "alpha2": "CH",
+      "kind": "country",
+      "shape": true
+    },
+    "760": {
+      "name": "Syria",
+      "alpha2": "SY",
+      "kind": "country",
+      "shape": true
+    },
+    "762": {
+      "name": "Tajikistan",
+      "alpha2": "TJ",
+      "kind": "country",
+      "shape": true
+    },
+    "764": {
+      "name": "Thailand",
+      "alpha2": "TH",
+      "kind": "country",
+      "shape": true
+    },
+    "768": {
+      "name": "Togo",
+      "alpha2": "TG",
+      "kind": "country",
+      "shape": true
+    },
+    "772": {
+      "name": "Tokelau",
+      "alpha2": "TK",
+      "kind": "region",
+      "shape": false,
+      "parent": "554"
+    },
+    "776": {
+      "name": "Tonga",
+      "alpha2": "TO",
+      "kind": "country",
+      "shape": true
+    },
+    "780": {
+      "name": "Trinidad and Tobago",
+      "alpha2": "TT",
+      "kind": "country",
+      "shape": true
+    },
+    "784": {
+      "name": "United Arab Emirates",
+      "alpha2": "AE",
+      "kind": "country",
+      "shape": true
+    },
+    "788": {
+      "name": "Tunisia",
+      "alpha2": "TN",
+      "kind": "country",
+      "shape": true
+    },
+    "792": {
+      "name": "Turkey",
+      "alpha2": "TR",
+      "kind": "country",
+      "shape": true
+    },
+    "795": {
+      "name": "Turkmenistan",
+      "alpha2": "TM",
+      "kind": "country",
+      "shape": true
+    },
+    "796": {
+      "name": "Turks and Caicos Is.",
+      "alpha2": "TC",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "798": {
+      "name": "Tuvalu",
+      "alpha2": "TV",
+      "kind": "country",
+      "shape": false
+    },
+    "800": {
+      "name": "Uganda",
+      "alpha2": "UG",
+      "kind": "country",
+      "shape": true
+    },
+    "804": {
+      "name": "Ukraine",
+      "alpha2": "UA",
+      "kind": "country",
+      "shape": true
+    },
+    "807": {
+      "name": "Macedonia",
+      "alpha2": "MK",
+      "kind": "country",
+      "shape": true
+    },
+    "818": {
+      "name": "Egypt",
+      "alpha2": "EG",
+      "kind": "country",
+      "shape": true
+    },
+    "826": {
+      "name": "United Kingdom",
+      "alpha2": "GB",
+      "kind": "country",
+      "shape": true
+    },
+    "831": {
+      "name": "Guernsey",
+      "alpha2": "GG",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "832": {
+      "name": "Jersey",
+      "alpha2": "JE",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "833": {
+      "name": "Isle of Man",
+      "alpha2": "IM",
+      "kind": "region",
+      "shape": true,
+      "parent": "826"
+    },
+    "834": {
+      "name": "Tanzania",
+      "alpha2": "TZ",
+      "kind": "country",
+      "shape": true
+    },
+    "840": {
+      "name": "United States of America",
+      "alpha2": "US",
+      "kind": "country",
+      "shape": true
+    },
+    "850": {
+      "name": "U.S. Virgin Is.",
+      "alpha2": "VI",
+      "kind": "region",
+      "shape": true,
+      "parent": "840"
+    },
+    "854": {
+      "name": "Burkina Faso",
+      "alpha2": "BF",
+      "kind": "country",
+      "shape": true
+    },
+    "858": {
+      "name": "Uruguay",
+      "alpha2": "UY",
+      "kind": "country",
+      "shape": true
+    },
+    "860": {
+      "name": "Uzbekistan",
+      "alpha2": "UZ",
+      "kind": "country",
+      "shape": true
+    },
+    "862": {
+      "name": "Venezuela",
+      "alpha2": "VE",
+      "kind": "country",
+      "shape": true
+    },
+    "876": {
+      "name": "Wallis and Futuna Is.",
+      "alpha2": "WF",
+      "kind": "region",
+      "shape": true,
+      "parent": "250"
+    },
+    "882": {
+      "name": "Samoa",
+      "alpha2": "WS",
+      "kind": "country",
+      "shape": true
+    },
+    "887": {
+      "name": "Yemen",
+      "alpha2": "YE",
+      "kind": "country",
+      "shape": true
+    },
+    "894": {
+      "name": "Zambia",
+      "alpha2": "ZM",
+      "kind": "country",
+      "shape": true
+    },
+    "983": {
+      "name": "Kosovo",
+      "alpha2": "XK",
+      "kind": "country",
+      "shape": false
+    }
+  }
+}

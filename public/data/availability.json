@@ -1,0 +1,358 @@
+{
+  "generatedAt": "2026-06-02T03:39:30.721Z",
+  "updatedLabel": "2026-06-02 · auto-fetched",
+  "products": [
+    "chatgpt",
+    "claude",
+    "gemini"
+  ],
+  "layers": [
+    "web",
+    "api"
+  ],
+  "meta": {
+    "labels": {
+      "chatgpt": "ChatGPT",
+      "claude": "Claude",
+      "gemini": "Gemini"
+    },
+    "providers": {
+      "chatgpt": "OpenAI",
+      "claude": "Anthropic",
+      "gemini": "Google"
+    },
+    "facetLabels": {
+      "web": "Web",
+      "api": "API"
+    },
+    "methodology": [
+      "This map shows where ChatGPT, Claude, and Gemini are officially available by country."
+    ],
+    "sources": [
+      {
+        "label": "OpenAI — ChatGPT supported countries",
+        "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"
+      },
+      {
+        "label": "OpenAI — API supported countries",
+        "url": "https://developers.openai.com/api/docs/supported-countries"
+      },
+      {
+        "label": "Anthropic — Claude supported countries",
+        "url": "https://www.anthropic.com/supported-countries"
+      },
+      {
+        "label": "Anthropic — Claude API supported regions",
+        "url": "https://platform.claude.com/docs/en/api/supported-regions"
+      },
+      {
+        "label": "Google — Gemini apps available countries",
+        "url": "https://support.google.com/gemini/answer/13575153"
+      },
+      {
+        "label": "Google — Gemini API available regions",
+        "url": "https://ai.google.dev/gemini-api/docs/available-regions"
+      }
+    ]
+  },
+  "sourceStatus": {
+    "chatgpt": {
+      "web": {
+        "ok": true,
+        "stale": false,
+        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"
+      },
+      "api": {
+        "ok": true,
+        "stale": false,
+        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "url": "https://developers.openai.com/api/docs/supported-countries"
+      }
+    },
+    "claude": {
+      "web": {
+        "ok": true,
+        "stale": false,
+        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "url": "https://www.anthropic.com/supported-countries"
+      },
+      "api": {
+        "ok": true,
+        "stale": false,
+        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "url": "https://platform.claude.com/docs/en/api/supported-regions"
+      }
+    },
+    "gemini": {
+      "web": {
+        "ok": true,
+        "stale": false,
+        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "url": "https://support.google.com/gemini/answer/13575153"
+      },
+      "api": {
+        "ok": true,
+        "stale": false,
+        "fetchedAt": "2026-06-02T03:39:30.721Z",
+        "url": "https://ai.google.dev/gemini-api/docs/available-regions.md.txt"
+      }
+    }
+  },
+  "unavailable": {
+    "chatgpt": {
+      "web": [
+        "16",
+        "86",
+        "92",
+        "112",
+        "156",
+        "184",
+        "192",
+        "238",
+        "239",
+        "316",
+        "334",
+        "336",
+        "344",
+        "364",
+        "408",
+        "446",
+        "500",
+        "531",
+        "534",
+        "570",
+        "574",
+        "580",
+        "583",
+        "612",
+        "630",
+        "643",
+        "660",
+        "663",
+        "732",
+        "760",
+        "796",
+        "831",
+        "832",
+        "833",
+        "850",
+        "862"
+      ],
+      "api": [
+        "16",
+        "60",
+        "86",
+        "92",
+        "112",
+        "136",
+        "156",
+        "184",
+        "192",
+        "234",
+        "238",
+        "239",
+        "248",
+        "258",
+        "260",
+        "304",
+        "316",
+        "334",
+        "336",
+        "344",
+        "364",
+        "408",
+        "446",
+        "500",
+        "531",
+        "533",
+        "534",
+        "540",
+        "570",
+        "574",
+        "580",
+        "583",
+        "612",
+        "630",
+        "643",
+        "652",
+        "654",
+        "660",
+        "663",
+        "666",
+        "732",
+        "760",
+        "796",
+        "831",
+        "832",
+        "833",
+        "850",
+        "862",
+        "876"
+      ]
+    },
+    "claude": {
+      "web": [
+        "4",
+        "16",
+        "60",
+        "86",
+        "92",
+        "104",
+        "112",
+        "136",
+        "156",
+        "180",
+        "184",
+        "192",
+        "234",
+        "238",
+        "239",
+        "248",
+        "258",
+        "260",
+        "304",
+        "316",
+        "334",
+        "336",
+        "344",
+        "364",
+        "408",
+        "446",
+        "500",
+        "531",
+        "533",
+        "534",
+        "540",
+        "570",
+        "574",
+        "580",
+        "583",
+        "612",
+        "630",
+        "643",
+        "652",
+        "654",
+        "660",
+        "663",
+        "666",
+        "732",
+        "760",
+        "796",
+        "831",
+        "832",
+        "833",
+        "850",
+        "862",
+        "876",
+        "887"
+      ],
+      "api": [
+        "4",
+        "16",
+        "60",
+        "86",
+        "92",
+        "104",
+        "112",
+        "136",
+        "140",
+        "156",
+        "180",
+        "184",
+        "192",
+        "231",
+        "232",
+        "234",
+        "238",
+        "239",
+        "248",
+        "258",
+        "260",
+        "304",
+        "316",
+        "334",
+        "336",
+        "344",
+        "364",
+        "408",
+        "434",
+        "446",
+        "466",
+        "500",
+        "531",
+        "533",
+        "534",
+        "540",
+        "558",
+        "570",
+        "574",
+        "580",
+        "583",
+        "612",
+        "630",
+        "643",
+        "652",
+        "654",
+        "660",
+        "663",
+        "666",
+        "706",
+        "728",
+        "729",
+        "732",
+        "760",
+        "796",
+        "831",
+        "832",
+        "833",
+        "850",
+        "862",
+        "876",
+        "887"
+      ]
+    },
+    "gemini": {
+      "web": [
+        "4",
+        "92",
+        "112",
+        "156",
+        "192",
+        "238",
+        "260",
+        "336",
+        "364",
+        "408",
+        "534",
+        "583",
+        "643",
+        "663",
+        "760",
+        "850"
+      ],
+      "api": [
+        "4",
+        "92",
+        "104",
+        "112",
+        "156",
+        "192",
+        "238",
+        "258",
+        "260",
+        "336",
+        "344",
+        "364",
+        "408",
+        "446",
+        "534",
+        "583",
+        "643",
+        "663",
+        "760",
+        "850"
+      ]
+    }
+  }
+}

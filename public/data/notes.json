@@ -1,0 +1,23 @@
+{
+  "annotations": [
+    { "country": "156", "scope": "all", "tag": "gov-block",
+      "text": "No official consumer access to any of the three. Domestic models (DeepSeek, Qwen, Ernie) fill the gap.",
+      "source": { "label": "OpenAI supported countries", "url": "https://platform.openai.com/docs/supported-countries" } },
+    { "country": "643", "scope": "all", "tag": "restricted",
+      "text": "Not officially supported by OpenAI, Anthropic, or Google; reachable only via VPN." },
+    { "country": "408", "scope": "all", "tag": "sanctions",
+      "text": "No access — comprehensive international sanctions." },
+    { "country": "364", "scope": "all", "tag": "sanctions",
+      "text": "Unavailable under U.S. sanctions." },
+    { "country": "192", "scope": "all", "tag": "sanctions",
+      "text": "Unavailable under U.S. sanctions." },
+    { "country": "760", "scope": "all", "tag": "sanctions",
+      "text": "Historically blocked under sanctions; access remains unsupported." },
+    { "country": "112", "scope": "all", "tag": "sanctions",
+      "text": "Restricted under sanctions; none of the three are officially supported." },
+    { "country": "380", "scope": "all", "tag": "history",
+      "text": "ChatGPT was briefly banned by the Italian data-protection authority in 2023, then restored after privacy changes." },
+    { "country": "276", "scope": "all", "tag": "history",
+      "text": "Claude and Gemini both launched here months after their U.S. debut due to EU rollout timing." }
+  ]
+}
