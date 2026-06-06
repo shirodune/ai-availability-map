@@ -537,6 +537,14 @@ export default function App() {
               <button className="about-link" onClick={() => setPage("sources")}>
                 Sources →
               </button>
+              <a
+                className="about-link"
+                href="https://github.com/shirodune/ai-availability-map"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub ↗
+              </a>
             </div>
           </footer>
         </>

@@ -566,6 +566,7 @@ html[data-theme="minimal"] .mini-badge.c1 { color: var(--ink); }
 .about-link {
   border: 0; background: transparent; color: var(--accent);
   font-family: var(--font-mono); font-size: 12px; white-space: nowrap;
+  text-decoration: none;
 }
 .about-link:hover { text-decoration: underline; }
 .foot-links { display: inline-flex; gap: 18px; }

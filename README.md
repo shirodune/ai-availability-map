@@ -1,5 +1,7 @@
 # AI Availability Map
 
+**Live: <https://ai-availability-map.vercel.app>**
+
 An interactive world map of where **ChatGPT, Claude, and Gemini** are officially
 available, by country — for both **consumer apps** and **developer APIs**, with
 feature spotlights, a sortable table, and an auto-generated changelog.
