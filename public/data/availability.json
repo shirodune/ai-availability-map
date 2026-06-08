@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-07T08:41:40.633Z",
-  "updatedLabel": "2026-06-07 · auto-fetched",
+  "generatedAt": "2026-06-08T10:12:05.663Z",
+  "updatedLabel": "2026-06-08 · auto-fetched",
   "products": [
     "chatgpt",
     "claude",
@@ -68,13 +68,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-07T08:41:40.633Z",
+        "fetchedAt": "2026-06-08T10:12:05.663Z",
         "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-07T08:41:40.633Z",
+        "fetchedAt": "2026-06-08T10:12:05.663Z",
         "url": "https://developers.openai.com/api/docs/supported-countries"
       }
     },
@@ -82,13 +82,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-07T08:41:40.633Z",
+        "fetchedAt": "2026-06-08T10:12:05.663Z",
         "url": "https://www.anthropic.com/supported-countries"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-07T08:41:40.633Z",
+        "fetchedAt": "2026-06-08T10:12:05.663Z",
         "url": "https://www.anthropic.com/supported-countries"
       }
     },
@@ -96,13 +96,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-07T08:41:40.633Z",
+        "fetchedAt": "2026-06-08T10:12:05.663Z",
         "url": "https://support.google.com/gemini/answer/13575153"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-06-07T08:41:40.633Z",
+        "fetchedAt": "2026-06-08T10:12:05.663Z",
         "url": "https://ai.google.dev/gemini-api/docs/available-regions.md.txt"
       }
     }
