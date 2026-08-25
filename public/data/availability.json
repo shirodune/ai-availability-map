@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T06:30:59.559Z",
-  "updatedLabel": "2026-08-24 · auto-fetched",
+  "generatedAt": "2026-08-25T06:22:19.240Z",
+  "updatedLabel": "2026-08-25 · auto-fetched",
   "products": [
     "chatgpt",
     "claude",
@@ -68,13 +68,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-08-24T06:30:59.559Z",
+        "fetchedAt": "2026-08-25T06:22:19.240Z",
         "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-08-24T06:30:59.559Z",
+        "fetchedAt": "2026-08-25T06:22:19.240Z",
         "url": "https://developers.openai.com/api/docs/supported-countries"
       }
     },
@@ -82,13 +82,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-08-24T06:30:59.559Z",
+        "fetchedAt": "2026-08-25T06:22:19.240Z",
         "url": "https://www.anthropic.com/supported-countries"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-08-24T06:30:59.559Z",
+        "fetchedAt": "2026-08-25T06:22:19.240Z",
         "url": "https://www.anthropic.com/supported-countries"
       }
     },
@@ -96,13 +96,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-08-24T06:30:59.559Z",
+        "fetchedAt": "2026-08-25T06:22:19.240Z",
         "url": "https://support.google.com/gemini/answer/13575153"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-08-24T06:30:59.559Z",
+        "fetchedAt": "2026-08-25T06:22:19.240Z",
         "url": "https://ai.google.dev/gemini-api/docs/available-regions.md.txt"
       }
     }
@@ -149,21 +149,14 @@
       ],
       "api": [
         "16",
-        "60",
         "86",
         "92",
         "112",
-        "136",
         "156",
         "184",
         "192",
-        "234",
         "238",
         "239",
-        "248",
-        "258",
-        "260",
-        "304",
         "316",
         "334",
         "336",
@@ -173,9 +166,7 @@
         "446",
         "500",
         "531",
-        "533",
         "534",
-        "540",
         "570",
         "574",
         "580",
@@ -183,11 +174,8 @@
         "612",
         "630",
         "643",
-        "652",
-        "654",
         "660",
         "663",
-        "666",
         "732",
         "760",
         "796",
@@ -195,8 +183,7 @@
         "832",
         "833",
         "850",
-        "862",
-        "876"
+        "862"
       ]
     },
     "claude": {
