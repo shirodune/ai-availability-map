@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T14:47:00.414Z",
-  "updatedLabel": "2026-11-19 · auto-fetched",
+  "generatedAt": "2026-11-20T14:28:21.394Z",
+  "updatedLabel": "2026-11-20 · auto-fetched",
   "products": [
     "chatgpt",
     "claude",
@@ -74,7 +74,7 @@
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-11-19T14:47:00.414Z",
+        "fetchedAt": "2026-11-20T14:28:21.394Z",
         "url": "https://developers.openai.com/api/docs/supported-countries"
       }
     },
@@ -96,13 +96,13 @@
       "web": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-11-19T14:47:00.414Z",
+        "fetchedAt": "2026-11-20T14:28:21.394Z",
         "url": "https://support.google.com/gemini/answer/13575153"
       },
       "api": {
         "ok": true,
         "stale": false,
-        "fetchedAt": "2026-11-19T14:47:00.414Z",
+        "fetchedAt": "2026-11-20T14:28:21.394Z",
         "url": "https://ai.google.dev/gemini-api/docs/available-regions.md.txt"
       }
     }
