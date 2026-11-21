@@ -1,7 +1,17 @@
 {
   "meta": {
     "illustrative": false,
-    "note": "Availability changes are recorded from each scheduled scrape going forward."
+    "note": "Auto-generated from scraper diffs."
   },
-  "entries": []
+  "entries": [
+    {
+      "date": "2026-11-21",
+      "country": "760",
+      "name": "Syria",
+      "product": "gemini",
+      "layer": "api",
+      "from": "unavailable",
+      "to": "available"
+    }
+  ]
 }
